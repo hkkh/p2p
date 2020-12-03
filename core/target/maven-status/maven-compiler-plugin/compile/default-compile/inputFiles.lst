@@ -1,0 +1,6 @@
+/Users/123/Desktop/github/newwork/java/core/src/main/java/com/kh/p2p/base/service/IRegisterService.java
+/Users/123/Desktop/github/newwork/java/core/src/main/java/com/kh/p2p/base/mapper/LogininfoMapper.java
+/Users/123/Desktop/github/newwork/java/core/src/main/java/com/kh/p2p/base/util/MD5PasswordEncoder.java
+/Users/123/Desktop/github/newwork/java/core/src/main/java/com/kh/p2p/base/domain/Logininfo.java
+/Users/123/Desktop/github/newwork/java/core/src/main/java/com/kh/p2p/base/util/MD5.java
+/Users/123/Desktop/github/newwork/java/core/src/main/java/com/kh/p2p/base/service/impl/RegisterServiceImpl.java

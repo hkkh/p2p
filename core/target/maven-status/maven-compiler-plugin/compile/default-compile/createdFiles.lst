@@ -1,0 +1,6 @@
+com/kh/p2p/base/service/impl/RegisterServiceImpl.class
+com/kh/p2p/base/util/MD5.class
+com/kh/p2p/base/mapper/LogininfoMapper.class
+com/kh/p2p/base/service/IRegisterService.class
+com/kh/p2p/base/domain/Logininfo.class
+com/kh/p2p/base/util/MD5PasswordEncoder.class

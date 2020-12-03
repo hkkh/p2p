@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:annotation-config />
+    <context:component-scan base-package="com.kh.p2p" />
+
+    <context:property-placeholder location="classpath:db.properties" />
+
+    <bean class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close" id="dataSource">
+        <property name="driverClassName" value="${db.driverClassName}" />
+        <property name="password" value="${db.password}" />
+        <property name="url" value="${db.url}" />
+        <property name="username" value="${db.username}" />
+        <property name="maxActive" value="${db.maxActive}" />
+    </bean>
+
+    <bean class="org.springframework.jdbc.datasource.DataSourceTransactionManager" id="transactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+<!--    <tx:advice id="advice" transaction-manager="transactionManager">-->
+<!--        <tx:attributes>-->
+<!--            <tx:method name="get*" read-only="true" />-->
+<!--            <tx:method name="*"/>-->
+<!--        </tx:attributes>-->
+<!--    </tx:advice>-->
+
+
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="pointcut" expression="execution(* com.kh.p2p..service.*.* (..))"/>-->
+<!--        <aop:advisor advice-ref="advice" pointcut-ref="pointcut" />-->
+<!--    </aop:config>-->
+
+
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="factory">
+        <property name="dataSource" ref="dataSource" />
+        <property name="typeAliasesPackage" value="com/kh/p2p/base/domain" />
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+        <property name="mapperLocations" value="classpath:com/kh/p2p/base/mapper/*Mapper.xml" />
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com/kh/p2p/base/mapper" />
+    </bean>
+
+</beans>

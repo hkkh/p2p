@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kh.p2p.base.mapper.LogininfoMapper">
+
+  <resultMap id="logininfoMap" type="com.kh.p2p.base.domain.Logininfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="pw" jdbcType="VARCHAR" property="pw" />
+    <result column="state" jdbcType="TINYINT" property="state" />
+  </resultMap>
+
+  <insert id="insert" parameterType="com.kh.p2p.base.domain.Logininfo">
+    insert into logininfo (id, name, pw, 
+      state)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{pw,jdbcType=VARCHAR}, 
+      #{state,jdbcType=TINYINT})
+  </insert>
+
+  <select id="selectCountWithName" resultType="long">
+    select count(*) from logininfo where name = #{name}
+  </select>
+
+
+
+</mapper>
