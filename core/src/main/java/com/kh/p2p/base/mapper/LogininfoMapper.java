@@ -7,4 +7,6 @@ public interface LogininfoMapper {
 
     int insert(Logininfo record);
     Long selectCountWithName(String name);
+
+    Logininfo selectLogininfo(@Param("username")String name, @Param("password")String pw);
 }

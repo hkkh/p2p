@@ -3,8 +3,55 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="315d8307-2217-4990-97dc-217fe8753876" name="Default Changelist" comment="" />
+    <list default="true" id="315d8307-2217-4990-97dc-217fe8753876" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../parent/.idea/parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/src/main/webapp/jslib/jQuery-form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/src/main/webapp/scripts/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../website/src/main/webapp/scripts/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/mapper/LogininfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/mapper/LogininfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/mapper/LogininfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/mapper/LogininfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/service/IRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/service/IRegisterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/service/impl/RegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kh/p2p/base/service/impl/RegisterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/mapper/LogininfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/mapper/LogininfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/mapper/LogininfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/mapper/LogininfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/service/IRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/service/IRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/service/impl/RegisterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kh/p2p/base/service/impl/RegisterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parent.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/parent.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mangersit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mangersit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../website/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/src/main/java/com/kh/p2p/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../website/src/main/java/com/kh/p2p/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../website/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/src/main/webapp/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/target/classes/com/kh/p2p/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../website/target/classes/com/kh/p2p/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/target/parent.war" beforeDir="false" afterPath="$PROJECT_DIR$/../website/target/parent.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/target/parent/WEB-INF/classes/com/kh/p2p/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../website/target/parent/WEB-INF/classes/com/kh/p2p/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/target/parent/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../website/target/parent/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/target/parent/scripts/form.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +64,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -27,6 +77,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kjGeqxafKPzahaSc3OBX5KChym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,7 +86,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.49823323" />
@@ -102,41 +153,55 @@
       <workItem from="1606698818642" duration="5026000" />
       <workItem from="1606706320884" duration="1825000" />
       <workItem from="1606786601831" duration="254000" />
+      <workItem from="1606980100088" duration="14000" />
+      <workItem from="1606980306788" duration="2720000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="309" y="169" width="1071" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606383152877">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="309" y="169" width="1071" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1606383152877" />
-    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1606700490920">
+    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1607061342136">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1606700490920" />
+    <state x="773" y="274" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1607061342136" />
     <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606699712479">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="698" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1606699712479" />
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1606719860649">
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom" timestamp="1607061705154">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1606719860649" />
-    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1606719860649">
+    <state width="1878" height="282" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1607061705154" />
+    <state width="1878" height="282" key="GridCell.Tab.0.center" timestamp="1607061705153">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1606719860649" />
-    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1606719860649">
+    <state width="1878" height="282" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1607061705153" />
+    <state width="1878" height="282" key="GridCell.Tab.0.left" timestamp="1607061705152">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1606719860649" />
-    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1606719860649">
+    <state width="1878" height="282" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1607061705152" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right" timestamp="1607061705153">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="282" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1606719860649" />
+    <state width="1878" height="282" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1607061705153" />
     <state x="315" y="328" key="SettingsEditor" timestamp="1606384907342">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

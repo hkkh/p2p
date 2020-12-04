@@ -9,6 +9,11 @@
     <result column="state" jdbcType="TINYINT" property="state" />
   </resultMap>
 
+
+  <sql id="baseField">
+    id, name, pw, state
+  </sql>
+
   <insert id="insert" parameterType="com.kh.p2p.base.domain.Logininfo">
     insert into logininfo (id, name, pw, 
       state)
@@ -18,6 +23,12 @@
 
   <select id="selectCountWithName" resultType="long">
     select count(*) from logininfo where name = #{name}
+  </select>
+
+  <select id="selectLogininfo" resultType="logininfoMap">
+    select
+    <include refid="baseField"></include>
+    from logininfo where name = #{username} and pw = #{password}
   </select>
 
 

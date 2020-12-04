@@ -24,4 +24,14 @@ public class RegisterServiceImpl implements IRegisterService {
             mapper.insert(logininfo);
         }
     }
+
+
+    public void login(String name, String pw) {
+        Logininfo logininfo = mapper.selectLogininfo(name,pw);
+        if (null == logininfo) {
+            throw new RuntimeException("用户名或者密码错误");
+        } else {
+
+        }
+    }
 }
